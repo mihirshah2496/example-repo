@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+</head>
+<body>
+  <h2>Mihirs Simple Calculator</h2>
+
+  <form action="/calculate" method="GET">
+    <input type="number" name="a" required placeholder="Number A">
+    <br><br>
+
+    <input type="number" name="b" required placeholder="Number B">
+    <br><br>
+
+    <select name="operation">
+      <option value="add">Add</option>
+      <option value="subtract">Subtract</option>
+      <option value="multiply">Multiply</option>
+      <option value="divide">Divide</option>
+    </select>
+    <br><br>
+
+    <button type="submit">Calculate</button>
+  </form>
+</body>
+</html>
